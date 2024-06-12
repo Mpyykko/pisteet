@@ -61,6 +61,7 @@ function updateTableContent() {
     const tdDate = document.createElement('td');
     tdDate.textContent = row.date;
     const tdEntry = document.createElement('td');
+    tdEntry.style.textAlign = 'center';
     tdEntry.textContent = row.merkinta;
     tr.appendChild(tdDate);
     tr.appendChild(tdEntry);
