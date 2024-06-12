@@ -17,13 +17,17 @@ main {
     min-height: 100vh;
 }
 .navbar {
-    background-color: #e79ad6!important;
+    background-color: #eda9de9d!important;
 }
 .navbar-brand,
 .nav-link,
 .navbar-toggler {
     color: #fff !important;
+    border-color:white !important;
+    border-width: 3px !important;
 }
+
+
 section {
     text-align: center;
     display: flex;
@@ -59,32 +63,32 @@ section {
 
 @keyframes glow {
     0% {
-        box-shadow: 0 0 5px #02a7f5, 0 0 30px #02a7f5, 0 0 30px #02a7f5, 0 0 5px #02a7f5;
+        box-shadow: 0 0 0px #02a7f5, 0 0 0px #02a7f5, 0 0 30px #02a7f5, 0 0 0px #02a7f5;
         
     }
     14% {
         
-        box-shadow: 0 0 5px #02978d, 0 0 30px #02978d, 0 0 30px #02978d, 0 0 5px #02978d;   
+        box-shadow: 0 0 0px #02978d, 0 0 0px #02978d, 0 0 30px #02978d, 0 0 0px #02978d;   
     }
     28% {
-        box-shadow: 0 0 5px #021499, 0 0 30px #021499, 0 0 30px #021499, 0 0 5px #021499;
+        box-shadow: 0 0 0px #021499, 0 0 0px #021499, 0 0 30px #021499, 0 0 0px #021499;
     }
     42% {
-        box-shadow: 0 0 5px #f502b2, 0 0 30px #f502b2, 0 0 30px #f502b2, 0 0 5px #f502b2;
+        box-shadow: 0 0 0px #f502b2, 0 0 0px #f502b2, 0 0 30px #f502b2, 0 0 0px #f502b2;
         
         
     }
     56% {
-        box-shadow: 0 0 5px #9e02c2, 0 0 30px #9e02c2, 0 0 30px #9e02c2, 0 0 5px #9e02c2;
+        box-shadow: 0 0 0px #9e02c2, 0 0 0px #9e02c2, 0 0 30px #9e02c2, 0 0 0px #9e02c2;
     }
     70% {
-        box-shadow: 0 0 5px #c20202, 0 0 30px #c20202, 0 0 30px #c20202, 0 0 5px #c20202;
+        box-shadow: 0 0 0px #c20202, 0 0 0px #c20202, 0 0 30px #c20202, 0 0 0px #c20202;
     }
     84% {
-        box-shadow: 0 0 5px #f5a302, 0 0 30px #f5a302, 0 0 30px #f5a302, 0 0 5px #f5a302;
+        box-shadow: 0 0 5px #f5a302, 0 0 0px #f5a302, 0 0 30px #f5a302, 0 0 5px #f5a302;
     }
     100% {
-        box-shadow: 0 0 5px #02f542,  0 0 30px #02f542,  0 0 30px #02f542,  0 0 5px #02f542;
+        box-shadow: 0 0 5px #02f542,  0 0 0px #02f542,  0 0 30px #02f542,  0 0 5px #02f542;
     }
 }
 .points {
