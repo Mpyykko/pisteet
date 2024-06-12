@@ -1,5 +1,5 @@
-body{
-    font-family: "Gluten", sans-serif!important ;
+body {
+    font-family: "Gluten", sans-serif!important;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -7,45 +7,34 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-  
-}  
-main{
-   
+}
+main {
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin: 0 auto;   
+    margin: 0 auto;
     width: 100%;
     min-height: 100vh;
- 
-
 }
-
 .navbar {
     background-color: #e79ad6!important;
 }
-
 .navbar-brand,
 .nav-link,
-.navbar-toggler{
+.navbar-toggler {
     color: #fff !important;
-    
 }
-
-
-section{
+section {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 100%;
 }
-
 :root {
     --circle-size: 300px;
     --progress-color: rgb(9, 133, 0);
     --background-color: #c7c6c6;
 }
-
 .achievement-container {
     display: flex;
     flex-direction: column;
@@ -54,22 +43,48 @@ section{
     margin-top: 100px;
     margin-bottom: 50px;
 }
-
 .achievement-circle {
     position: relative;
     width: 150px;
     height: 150px;
     display: flex;
+    border: 20px solid rgb(3, 3, 138);
     justify-content: center;
     align-items: center;
-    border: 20px solid rgb(9, 0, 133);
+   
     border-radius: 50%;
     overflow: hidden;
+    margin-bottom: 25px;
 }
-
 .achievement-image {
     width: 80%;
     height: 80%;
     border-radius: 50%;
 }
-      
+.points {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    height: 10px;
+    width: 300px;
+}
+
+.table-container {
+    margin: 20px auto;
+    width: 80%;
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ebebeb;
+}
+th, td {
+    padding: 12px;
+    border: 2px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: #ddd;
+}
