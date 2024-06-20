@@ -25,7 +25,20 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+
 document.addEventListener('DOMContentLoaded', function () {
+    const image3 = document.getElementById('image3');
+    
+    image3.addEventListener('click', function () {
+        if (image3.classList.contains('enlarged')) {
+            image3.classList.remove('enlarged');
+        } else {
+            image3.classList.add('enlarged');
+        }
+    });
+});
+
+/*document.addEventListener('DOMContentLoaded', function () {
     const image3 = document.getElementById('image3');
     const lock3 = document.getElementById('lock3');
 
@@ -37,6 +50,6 @@ document.addEventListener('DOMContentLoaded', function () {
         this.style.display = 'none';
     });
 });
-
+*/
 
 
