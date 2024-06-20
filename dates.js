@@ -45,6 +45,8 @@ function updateEntries() {
   paiva[14].merkinta = 10;
   paiva[15].merkinta = 10;
   paiva[16].merkinta = 10;
+  paiva[17].merkinta = 10;
+  paiva[18].merkinta = 9;
 
  
 

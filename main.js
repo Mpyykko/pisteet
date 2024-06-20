@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    const kysymys1 = { kysymys: "Kysymys 1", aanet: [154, 250] };
-    const kysymys2 = { kysymys: "Kysymys 2", aanet: [20, 150] };
-    const kysymys3 = { kysymys: "Kysymys 3", aanet: [85, 100] };
+    const kysymys1 = { kysymys: "Kysymys 1", aanet: [174, 250] };
+    const kysymys2 = { kysymys: "Kysymys 2", aanet: [130, 150] };
+    const kysymys3 = { kysymys: "Kysymys 3", aanet: [90, 100] };
 
     const saavutetutPisteet1 = kysymys1.aanet[0];
     const kokonaisPisteet1 = kysymys1.aanet[1];
