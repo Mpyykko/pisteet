@@ -3,6 +3,8 @@ const tableBody = document.getElementById('table-body');
 
 const data = [
   { paivays: "Lauantai 1.6.2024 kiukuttelu", pisteet: -5 },
+  { paivays: "Lauantai 22.6.2024 reunoilla kävely", pisteet: -10 },
+  { paivays: "Sunnuntai 23.6.2024 avain ovessa", pisteet: -5 }
   
 
 ];
