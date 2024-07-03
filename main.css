@@ -8,7 +8,8 @@ body {
     flex-direction: column;
     text-align: center;
     background-image: url(images/tausta.png);
-    background-size: cover;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
     color: white!important;
     
    
@@ -66,7 +67,8 @@ footer{
 
 .navbar-brand,
 .nav-link,
-.navbar-toggler {
+.navbar-toggler
+ {
     color: #fff !important;
     border-color:white !important;
     border-width: 3px !important;
